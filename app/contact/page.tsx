@@ -1,0 +1,3 @@
+import {ContactForm} from '@/components/layout/ContactForm';
+export const metadata={title:'Contact'};
+export default function Contact(){return <main className="inner-main"><div className="inner-container"><div className="micro">MAKE CONTACT / THE NEXT IDEA STARTS HERE</div><h1 className="site-heading">LET'S <em>CREATE.</em></h1><p className="lead">Have a question about your next material or a collaboration in mind? Reach out below.</p><div className="demo-notice" style={{maxWidth:650}}>With Supabase configured, messages are stored securely in the database for admins. In demo mode, no message is delivered.</div><ContactForm/></div></main>}
